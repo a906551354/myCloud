@@ -1,0 +1,9 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: cloud-provider-hystrix-payment
+  cloud:
+    zookeeper:
+      connect-string: 192.168.146.128:2181
